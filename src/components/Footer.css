@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.footer-container {
+  font-family: 'Montserrat', -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.footer-content {
+  background-color: rgba(225, 225, 225, 0.68);
+  display: flex;
+  width: 100%;
+  padding-top: 70px;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.footer-divider {
+  min-height: 1px;
+  width: 100%;
+  border: 1px solid rgba(164, 3, 3, 1);
+}
+
+.footer-main {
+  align-self: center;
+  margin-top: 34px;
+  width: 100%;
+  max-width: 1296px;
+  font-size: 16px;
+}
+
+.footer-sections {
+  display: flex;
+  align-items: start;
+  gap: 40px 131px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  border-radius: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 156px;
+}
+
+.footer-section:nth-child(2),
+.footer-section:nth-child(3) {
+  width: 201px;
+}
+
+.contact-section {
+  min-width: 240px;
+  width: 343px;
+}
+
+.section-title {
+  color: var(--Accent, #A40303);
+  font-weight: 600;
+  align-self: start;
+}
+
+.section-links {
+  color: var(--Body-Text, #2D2D2D);
+  font-weight: 500;
+  margin-top: 16px;
+}
+
+.social-links-section {
+  display: flex;
+  width: 137px;
+  max-width: 100%;
+  align-items: start;
+  gap: 40px 117px;
+  color: var(--Body-Text, #2D2D2D);
+  font-weight: 500;
+  justify-content: start;
+}
+
+.social-links-text {
+  width: 137px;
+  padding-bottom: 44px;
+  color: var(--Body-Text, #2D2D2D);
+}
+
+.footer-copyright {
+  background-color: rgba(202, 135, 135, 1);
+  display: flex;
+  margin-top: 116px;
+  width: 100%;
+  flex-direction: column;
+  align-items: start;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  justify-content: center;
+  padding: 13px 70px;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .footer-content {
+    max-width: 100%;
+  }
+
+  .footer-main {
+    max-width: 100%;
+  }
+
+  .footer-sections {
+    max-width: 100%;
+  }
+
+  .footer-copyright {
+    max-width: 100%;
+    margin-top: 40px;
+    padding: 0 20px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+}

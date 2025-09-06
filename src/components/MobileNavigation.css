@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+.mobile-navigation-container {
+  width: 430px;
+  height: 932px;
+  position: relative;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+}
+
+.navigation-sidebar {
+  width: 308px;
+  height: 932px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: #ca8787;
+}
+
+.navigation-menu {
+  display: flex;
+  width: 275px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  position: absolute;
+  left: 17px;
+  top: 25px;
+  height: 422px;
+}
+
+.navigation-item {
+  display: flex;
+  height: 50px;
+  padding: 14px 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  align-self: stretch;
+  border-bottom: 1px solid #fff;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.navigation-item:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.navigation-item-content {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+
+.navigation-icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.navigation-label {
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0em;
+  white-space: nowrap;
+}
+
+/* Login/SignUp item has different text color for icon */
+.navigation-item:last-child .navigation-label {
+  color: #2d2d2d;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .mobile-navigation-container {
+    width: 100%;
+    max-width: 430px;
+    margin: 0 auto;
+  }
+  
+  .navigation-sidebar {
+    width: 80%;
+    max-width: 308px;
+  }
+  
+  .navigation-menu {
+    width: calc(80% - 33px);
+    max-width: 275px;
+  }
+}
+
+@media (max-width: 640px) {
+  .mobile-navigation-container {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .navigation-sidebar {
+    width: 85%;
+  }
+  
+  .navigation-menu {
+    width: calc(85% - 33px);
+    left: 17px;
+  }
+  
+  .navigation-item {
+    height: 45px;
+    padding: 12px 10px;
+  }
+  
+  .navigation-label {
+    font-size: 14px;
+  }
+}

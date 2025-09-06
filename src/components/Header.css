@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.header-container {
+  font-family: 'Montserrat', -apple-system, Roboto, Helvetica, sans-serif;
+  width: 100%;
+}
+
+/* Promotional Banner */
+.promo-banner {
+  background-color: rgba(202, 135, 135, 1);
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  font-size: 14px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 500;
+  justify-content: center;
+  padding: 13px 70px;
+}
+
+.promo-content {
+  text-align: center;
+}
+
+/* Main Header */
+.main-header {
+  background-color: rgba(250, 249, 246, 1);
+  display: flex;
+  min-height: 85px;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 700;
+  justify-content: center;
+  padding: 23px 126px;
+}
+
+.header-content {
+  display: flex;
+  width: 100%;
+  max-width: 1293px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Logo */
+.logo {
+  color: rgba(45, 45, 45, 1);
+  font-size: 30px;
+  font-weight: 700;
+  align-self: stretch;
+  margin: auto 0;
+}
+
+/* Navigation */
+.navigation {
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 28px;
+  font-size: 16px;
+  color: rgba(77, 77, 77, 1);
+  font-weight: 400;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: auto 0;
+}
+
+.nav-item {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  justify-content: center;
+  margin: auto 0;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.nav-text {
+  align-self: stretch;
+  margin: auto 0;
+}
+
+.nav-arrow {
+  align-self: stretch;
+  display: flex;
+  width: 22px;
+  flex-shrink: 0;
+  height: 22px;
+  margin: auto 0;
+}
+
+/* Auth Buttons */
+.auth-buttons {
+  display: flex;
+  min-width: 240px;
+  align-items: center;
+  gap: 6px;
+  font-size: 18px;
+  white-space: nowrap;
+  justify-content: flex-start;
+  flex: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  margin: auto 0;
+}
+
+.login-button {
+  background-color: rgba(255, 143, 157, 1);
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  color: rgba(255, 255, 255, 1);
+  text-align: center;
+  justify-content: center;
+  width: 139px;
+  margin: auto 0;
+  padding: 0 23px;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.register-button {
+  box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.14);
+  display: flex;
+  min-height: 40px;
+  align-items: center;
+  color: rgba(255, 143, 157, 1);
+  justify-content: center;
+  margin: auto 0;
+  padding: 0 23px;
+  border: 1px solid rgba(255, 143, 157, 1);
+  background: transparent;
+  cursor: pointer;
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* Responsive Design */
+@media (max-width: 991px) {
+  .promo-banner {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .main-header {
+    max-width: 100%;
+    padding: 0 20px;
+  }
+
+  .header-content {
+    max-width: 100%;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .navigation {
+    max-width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .nav-item {
+    white-space: initial;
+  }
+
+  .auth-buttons {
+    white-space: initial;
+    padding: 0 20px;
+    justify-content: center;
+    min-width: auto;
+    flex: none;
+  }
+}
