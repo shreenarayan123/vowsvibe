@@ -16,7 +16,7 @@ export default function ProductGrid() {
         {products.slice(0, 4).map((product, i) => (
           <div
             key={i}
-            className="bg-white rounded-none min-w-[240px] w-[312px] py-[25px] px-[1px] 
+            className="bg-white rounded-none min-w-[240px] w-[312px] pt-[25px] px-[1px] 
                        shadow-[0_2px_8px_rgba(0,0,0,0.1)] font-['Montserrat']"
           >
             {/* Ribbon + Heart */}

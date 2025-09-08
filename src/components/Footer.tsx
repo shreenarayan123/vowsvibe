@@ -1,4 +1,4 @@
-import SocialIcons from "../assets/Social Icons.png";
+import SocialIcons from "../assets/Social-Icons.png";
 const Footer = () => {
   return (
     <footer className="font-['Montserrat']">
