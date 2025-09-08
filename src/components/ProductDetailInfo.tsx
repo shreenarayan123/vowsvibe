@@ -1,10 +1,4 @@
 import { Star } from "lucide-react";
-import Easy30Day from "../assets/easy-30-days-return.png";
-import Silver from "../assets/925-silver.png";
-import SixMonth from "../assets/6-months-warranty.png";
-import PremiumGold from "../assets/premium-gold.png";
-import Received from "../assets/received.png";
-import Profile from "../assets/profile-circle.png";
 
 const ProductDetailInfo = () => {
   return (
@@ -49,7 +43,7 @@ const ProductDetailInfo = () => {
           <div className="flex min-w-[240px] items-center gap-[10px] justify-center">
             <span className="flex items-center gap-[10px]">
               <img
-                src={Easy30Day}
+                src="/assets/easy-30-days-return.png"
                 height={"50px"}
                 width={"50px"}
                 alt="Easy 30 Day Return"
@@ -60,7 +54,7 @@ const ProductDetailInfo = () => {
           <div className="flex min-w-[240px] items-center gap-[10px] justify-center">
             <span className="flex items-center gap-[10px]">
               <img
-                src={Silver}
+                src="/assets/925-silver.png"
                 height={"50px"}
                 width={"50px"}
                 alt="925 Silver Plating"
@@ -73,7 +67,7 @@ const ProductDetailInfo = () => {
           <div className="flex min-w-[240px] items-center gap-[10px] justify-center">
             <span className="flex items-center gap-[10px]">
               <img
-                src={SixMonth}
+                src="/assets/6-months-warranty.png"
                 height={"50px"}
                 width={"50px"}
                 alt="6 Month Warranty"
@@ -84,7 +78,7 @@ const ProductDetailInfo = () => {
           <div className="flex min-w-[240px] items-center gap-[10px] justify-start">
             <span className="flex items-center gap-[10px]">
               <img
-                src={PremiumGold}
+                src="/assets/premium-gold.png"
                 height={"50px"}
                 width={"50px"}
                 alt="Premium"
@@ -151,7 +145,7 @@ const ProductDetailInfo = () => {
           <div className="w-full max-lg:max-w-full">
             <div className="flex items-center gap-[14px] justify-start flex-wrap">
               <img
-                src={Received}
+                src="/assets/received.png"
                 height={"20px"}
                 width={"20px"}
                 alt="Received"
@@ -167,7 +161,7 @@ const ProductDetailInfo = () => {
           <div className="w-full mt-2 max-lg:max-w-full">
             <div className="flex items-center gap-[14px] justify-start flex-wrap">
               <img
-                src={Received}
+                src="/assets/received.png"
                 height={"20px"}
                 width={"20px"}
                 alt="Received"
@@ -181,7 +175,7 @@ const ProductDetailInfo = () => {
           <div className="w-full mt-2 max-lg:max-w-full">
             <div className="flex items-center gap-[14px] justify-start flex-wrap">
               <img
-                src={Received}
+                src="/assets/received.png"
                 height={"20px"}
                 width={"20px"}
                 alt="Received"
@@ -195,7 +189,7 @@ const ProductDetailInfo = () => {
           <div className="w-full mt-2 max-lg:max-w-full">
             <div className="flex items-center gap-[14px] justify-start flex-wrap">
               <img
-                src={Received}
+                src="/assets/received.png"
                 height={"20px"}
                 width={"20px"}
                 alt="Received"
@@ -235,7 +229,7 @@ const ProductDetailInfo = () => {
         <div className="flex mt-[22px] w-full flex-col items-start justify-start max-lg:max-w-full">
           <div className="flex w-[223px] max-w-full flex-col items-stretch justify-center">
             <h4 className="flex w-full items-center gap-[6px] text-[#2d2d2d] whitespace-nowrap justify-start font-medium text-xl font-['Montserrat'] m-0 max-lg:whitespace-normal">
-              <img src={Profile} alt="profile" height={"29px"} width={"29px"} />
+              <img src="/assets/profile-circle.png" alt="profile" height={"29px"} width={"29px"} />
               Anu
             </h4>
             <p className="text-[#878b94] mt-[10px] mb-0 font-medium text-sm font-['Montserrat']">
@@ -257,7 +251,7 @@ const ProductDetailInfo = () => {
         <div className="flex mt-[22px] w-full flex-col items-start justify-start max-lg:max-w-full">
           <div className="flex w-[223px] max-w-full flex-col items-stretch justify-center">
             <h4 className="flex w-full items-center gap-[6px] text-[#2d2d2d] whitespace-nowrap justify-start font-medium text-xl font-['Montserrat'] m-0 max-lg:whitespace-normal">
-              <img src={Profile} alt="profile" height={"29px"} width={"29px"} />
+              <img src="/assets/profile-circle.png" alt="profile" height={"29px"} width={"29px"} />
               Anu
             </h4>
             <p className="text-[#878b94] mt-[10px] mb-0 font-medium text-sm font-['Montserrat']">

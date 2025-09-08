@@ -1,7 +1,5 @@
 "use client";
 import { Plus } from "lucide-react";
-import RecievedItem from "../assets/receiveditem.png";
-import UserTick from "../assets/user-tick.png";
 
 export default function SidebarMenu({
   open,
@@ -13,23 +11,23 @@ export default function SidebarMenu({
   const menuItems = [
     { icon: <Plus size={16} color="white" />, label: "Add Account" },
     {
-      icon: <img src={RecievedItem} alt="arrow" width={16} height={16} />,
+      icon: <img src="/assets/receiveditem.png" alt="arrow" width={16} height={16} />,
       label: "Gold jewellery",
     },
     {
-      icon: <img src={RecievedItem} alt="arrow" width={16} height={16} />,
+      icon: <img src="/assets/receiveditem.png" alt="arrow" width={16} height={16} />,
       label: "Silver Jewellery",
     },
     {
-      icon: <img src={RecievedItem} alt="arrow" width={16} height={16} />,
+      icon: <img src="/assets/receiveditem.png" alt="arrow" width={16} height={16} />,
       label: "Trending Collection",
     },
     {
-      icon: <img src={RecievedItem} alt="arrow" width={16} height={16} />,
+      icon: <img src="/assets/receiveditem.png" alt="arrow" width={16} height={16} />,
       label: "Gifts",
     },
     {
-      icon: <img src={RecievedItem} alt="arrow" width={16} height={16} />,
+      icon: <img src="/assets/receiveditem.png" alt="arrow" width={16} height={16} />,
       label: "Shop by Occasion",
     },
   ];
@@ -65,7 +63,7 @@ export default function SidebarMenu({
           ))}
           <div className="flex items-center gap-3 w-[275px] h-[50px] bg-white mt-3 px-[12px] py-[10px]">
             <div className="p-[5px]">
-              <img src={UserTick} alt="user" width={16} height={16} />
+              <img src="/assets/user-tick.png" alt="user" width={16} height={16} />
             </div>
             <span className="text-[#2d2d2d] font-medium text-[14px]">
               Login / SignUp

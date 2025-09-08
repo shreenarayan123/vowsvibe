@@ -1,4 +1,4 @@
-import SocialIcons from "../assets/social-icons.png";
+
 const Footer = () => {
   return (
     <footer className="font-['Montserrat']">
@@ -90,7 +90,7 @@ const Footer = () => {
           <div className="flex w-[137px] max-w-full items-start gap-[40px_117px] text-[#2d2d2d] font-medium justify-start">
             <div className="w-[137px] pb-11 text-[#2d2d2d] flex flex-col items-center gap-[20px]">
               Our Social Links:
-              <img src={SocialIcons} alt="Social Icons" />
+              <img src="/assets/social-icons.png" alt="Social Icons" />
             </div>
           </div>
         </div>

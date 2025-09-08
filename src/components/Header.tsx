@@ -1,5 +1,4 @@
 import { AlignJustify, ChevronDown } from "lucide-react";
-import Frame from "../assets/frame-47.png";
 import { useState } from "react";
 import SidebarMenu from "./SideBarMenu";
 
@@ -82,7 +81,7 @@ const Header = () => {
           </div>
           <div className="block md:hidden">
             <img
-              src={Frame}
+              src="/assets/frame-47.png"
               width={"64px"}
               height={"24px"}
               alt="wishlist-bag"
