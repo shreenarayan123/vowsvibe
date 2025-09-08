@@ -1,20 +1,11 @@
-import { useState } from 'react'
-import { MobileNavigation, ProductDetail } from './components'
-import './App.css'
+
+import ProductPage from './components/ProductPage'
 
 function App() {
-
   return (
-    <>
-      <div style={{ display: 'flex', gap: '2rem', alignItems: 'flex-start', flexWrap: 'wrap' }}>
-       
-
-        <div>
-          <ProductDetail/>
-          {/* <MobileNavigation /> */}
-        </div>
-      </div>
-    </>
+    <div className="min-h-screen bg-white">
+      <ProductPage />
+    </div>
   )
 }
 

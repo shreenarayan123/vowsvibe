@@ -1,99 +1,25 @@
-import React from 'react';
-import { ChevronLeft, ChevronRight, Heart } from 'lucide-react';
-import './TrendingSection.css';
+import React from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
+import ProductGrid from "./ProductGrid";
 
 const TrendingSection: React.FC = () => {
   return (
-    <div className="trending-section">
-      <h2 className="trending-title">Similar to this</h2>
-      
-      <div className="trending-container">
-        <button className="nav-button nav-button-left">
-          <ChevronLeft className="nav-icon" size={33} />
+    <div className="w-full font-['Montserrat']">
+      <h2 className="text-[#2d2d2d] hidden md:block text-center font-semibold text-[42px] leading-none mb-10 max-lg:text-[32px] max-sm:text-[28px] max-sm:mb-[30px]">
+        Similar to this
+      </h2>
+      <h2 className="text-[#2d2d2d] block md:hidden text-center font-semibold text-[42px] leading-none mb-10 max-lg:text-[32px] max-sm:text-[28px] max-sm:mb-[30px]">
+        You might also like
+      </h2>
+
+      <div className="flex items-center gap-[15px] justify-center flex-wrap w-full max-lg:gap-[10px] max-md:flex-col max-md:gap-5">
+        <button className="bg-[#f6f5f2] hidden  border-none rounded-full w-[58px] h-[58px] md:flex items-center justify-center cursor-pointer flex-shrink-0 min-h-[58px] max-md:order-2">
+          <ChevronLeft className="text-[#2d2d2d]" size={33} />
         </button>
-        
-        <div className="product-card">
-          <div className="card-header">
-            <div className="offer-tag">BestSeller</div>
-            <div className="wishlist-icon">
-              <Heart className="heart-icon" size={20} />
-            </div>
-          </div>
-          
-          <div className="product-details">
-            <div className="product-name">Rose Gold Earrings with alloy</div>
-            <div className="price-container">
-              <span className="current-price">₹ 1999</span>
-              <span className="original-price">₹ 2999</span>
-            </div>
-            <div className="rating">(4)</div>
-          </div>
-          
-          <button className="add-to-cart-btn">Add to Cart</button>
-        </div>
-        
-        <div className="product-card">
-          <div className="card-header">
-            <div className="offer-tag">BestSeller</div>
-            <div className="wishlist-icon">
-              <Heart className="heart-icon" size={20} />
-            </div>
-          </div>
-          
-          <div className="product-details">
-            <div className="product-name">Rose Gold Earrings with alloy</div>
-            <div className="price-container">
-              <span className="current-price">₹ 1999</span>
-              <span className="original-price">₹ 2999</span>
-            </div>
-            <div className="rating">(4)</div>
-          </div>
-          
-          <button className="add-to-cart-btn">Add to Cart</button>
-        </div>
-        
-        <div className="product-card">
-          <div className="card-header">
-            <div className="offer-tag">BestSeller</div>
-            <div className="wishlist-icon">
-              <Heart className="heart-icon" size={20} />
-            </div>
-          </div>
-          
-          <div className="product-details">
-            <div className="product-name">Rose Gold Earrings with alloy</div>
-            <div className="price-container">
-              <span className="current-price">₹ 1999</span>
-              <span className="original-price">₹ 2999</span>
-            </div>
-            <div className="rating">(4)</div>
-          </div>
-          
-          <button className="add-to-cart-btn">Add to Cart</button>
-        </div>
-        
-        <div className="product-card">
-          <div className="card-header">
-            <div className="offer-tag">BestSeller</div>
-            <div className="wishlist-icon">
-              <Heart className="heart-icon" size={20} />
-            </div>
-          </div>
-          
-          <div className="product-details">
-            <div className="product-name">Rose Gold Earrings with alloy</div>
-            <div className="price-container">
-              <span className="current-price">₹ 1999</span>
-              <span className="original-price">₹ 2999</span>
-            </div>
-            <div className="rating">(4)</div>
-          </div>
-          
-          <button className="add-to-cart-btn">Add to Cart</button>
-        </div>
-        
-        <button className="nav-button nav-button-right">
-          <ChevronRight className="nav-icon" size={33} />
+        <ProductGrid />
+
+        <button className="bg-[#f6f5f2] border-none rounded-full w-[58px] h-[58px] hidden md:flex flex-col items-center justify-center cursor-pointer flex-shrink-0 min-h-[58px] max-md:order-2">
+          <ChevronRight className="text-[#2d2d2d]" size={33} />
         </button>
       </div>
     </div>
