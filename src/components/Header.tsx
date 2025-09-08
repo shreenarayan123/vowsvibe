@@ -1,5 +1,5 @@
 import { AlignJustify, ChevronDown } from "lucide-react";
-import Frame from "../assets/Frame-47.png";
+import Frame from "../assets/frame-47.png";
 import { useState } from "react";
 import SidebarMenu from "./SideBarMenu";
 

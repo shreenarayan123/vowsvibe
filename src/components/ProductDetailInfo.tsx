@@ -1,8 +1,8 @@
 import { Star } from "lucide-react";
-import Easy30Day from "../assets/Easy-30-days-Return.png";
-import Silver from "../assets/925-Silver.png";
-import SixMonth from "../assets/6-months-Warranty.png";
-import PremiumGold from "../assets/Premium-Gold.png";
+import Easy30Day from "../assets/easy-30-days-return.png";
+import Silver from "../assets/925-silver.png";
+import SixMonth from "../assets/6-months-warranty.png";
+import PremiumGold from "../assets/premium-gold.png";
 import Received from "../assets/received.png";
 import Profile from "../assets/profile-circle.png";
 
